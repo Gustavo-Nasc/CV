@@ -92,21 +92,60 @@ ul {
 .div-link {
     display: flex;
     align-items: center;
+    margin-bottom: 1.5rem;
 }
 
 .link-icon {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin-right: 1.5rem;
 }
 
 .linkedin {
     color: #0077b5;
-    margin-right: 1.5rem;
-    font-size: 2rem;
+}
+
+.github {
+    color: #211f1f;
+}
+
+.instagram {
+  background-image: linear-gradient(to left bottom, #8f37b4, #a145c6, #d13492, #ff103d, #ff010a, #ff3900, #ff8400, #ffca00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.twitter {
+    color: #08a0e9;
+}
+
+.messenger {
+    background-image: linear-gradient(to left bottom, #ff6171, #ff49a2, #e73dd0, #a839ff, #8f47ff, #7453ff, #4864ff, #286cff, #0079ff, #008aff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .link {
     color: var(--text-color);
     text-decoration: none;
+}
+
+.sr-only {
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 4rem 0 2rem;
+    opacity: 0.6;
 }
 
 @media screen and (min-width:750px) {
