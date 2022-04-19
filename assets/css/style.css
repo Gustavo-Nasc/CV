@@ -12,15 +12,15 @@ body {
 }
 
 header {
-    text-align: center;
     background-color: #004AAD;
     color: #fff;
-    padding: 5rem 0;
+    padding: 5rem 2rem;
     font-size: 27px;
     font-weight: 700;
     letter-spacing: 0.2rem;
     border-bottom: 2px solid #000;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 main {
@@ -29,11 +29,11 @@ main {
 
 .container-informations {
     display: grid;
-    margin-bottom: 1.5rem;
 }
 
 .sub-container-informations {
     display: grid;
+    margin-top: 1.5rem;
 }
 
 .title {
@@ -45,7 +45,6 @@ main {
 }
 
 .subtitle {
-    margin-bottom: 1rem;
     font-size: 17px;
     font-weight: 600;
     letter-spacing: 0.1rem;
@@ -56,19 +55,19 @@ main {
     font-size: 16px;
     font-weight: 300;
     color: var(--text-color);
-    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .separator-horizontal {
     background-color: #000;
     height: 1px;
-    margin-bottom: 2.5rem;
+    margin: 2.5rem 0;
 }
 
 .separator-vertical {
     background-color: #000;
     width: 1px;
-    margin: 0 1rem;
+    margin: 0 2rem;
 }
 
 .bold {
