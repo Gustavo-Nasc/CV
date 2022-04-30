@@ -212,7 +212,7 @@ ul {
     padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0,0,0,0);
+    clip: rect(0, 0, 0, 0);
     border: 0;
 }
 
@@ -226,6 +226,22 @@ footer {
     opacity: 0.6;
 }
 
+/*========== SCROLL BAR ==========*/
+::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: #e2e3e9;
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #a9acbc;
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #9fa1ad;
+}
+
 @media screen and (max-width:390px) {
     .div-link {
         margin-bottom: 0.5rem;
@@ -235,7 +251,7 @@ footer {
         font-size: 1rem;
         margin-right: 0.25rem;
     }
-    
+
     .text-link {
         font-size: 0.75rem;
         font-weight: 600;
